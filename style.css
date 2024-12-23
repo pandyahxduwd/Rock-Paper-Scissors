@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-img {
+    margin-top: 7vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.counter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 12vmin;
+    gap: 2vmin;
+}
+
+.usercount {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 6vmin;
+    height: 15vmin;
+    width: 10vmin;
+    border: solid 1px black;
+}
+
+.computercount {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 6vmin;
+    height: 15vmin;
+    width: 10vmin;
+    border: solid 1px black;
+}
+
+.resultmsg {
+    height: 15vmin;
+    border: dotted 3px black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vmin;
+    margin-bottom: 10vmin;
+}
+
+img {
+    height: 28vmin;
+    width: 30vmin;
+    border: 2px dotted black;
+    border-radius: 30px;
+}
+
+img:hover {
+    box-shadow: #579ca0 0px 1px 20px 2px;
+}
+
+.txt {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.msg {
+    font-size: 6vmin;
+    font-weight: 300;
+}
+
+.updatewinnereffect {
+    box-shadow: rgb(20, 20, 20) 0px 0px 70px 10px;
+    transform: scale(1.1);
+    transition: box-shadow 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px black;
+    background-color: black;
+    color: rgb(251, 250, 248);
+    text-align: center;
+}
+
+.footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
